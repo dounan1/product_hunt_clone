@@ -1,0 +1,14 @@
+<!-- app/views/products/index.html.erb -->
+<h1>Awesome Products</h1>
+<% @products.each do |product| %>
+  <div class="product">
+    <div class='product-upvote'>
+      <div class="product-arrow"></div>
+      <div class='product-count'>0</div>
+    </div>
+    <div class='product-body'>
+      <h3>Skello</h3>
+      <p>Manage your staff calendar</p>
+    </div>
+  </div>
+<% end %>
